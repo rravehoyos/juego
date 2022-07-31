@@ -1,0 +1,214 @@
+
+		
+		@keyframes ruleta{
+			0%{
+				background-position:-263px -0px;
+			}
+			14%{
+				background-position:-263px -298px;
+			}
+			28%{
+				background-position:-263px -597px;
+			}
+			42%{
+				background-position:-263px -895px;
+			}
+			56%{
+				background-position:-263px -1190px;
+			}
+			84%{
+				background-position:-263px -1487px;
+			}
+			100%{
+				background-position:-263px -0px;
+			}
+		}
+		@keyframes ruletaA{
+			0%{
+				background-position:-260px -7px;
+			}
+			50%{
+				background-position:-260px -600px;
+			}
+			100%{
+				background-position:-263px -1487px;
+			}
+			
+		}
+		@keyframes ruletaR{
+			0%{
+				background-position:-260px -7px;
+			}
+			50%{
+				background-position:-260px -600px;
+			}
+			100%{
+				background-position:-263px -1190px;
+			}
+			
+		}
+		@keyframes ruletaT{
+			0%{
+				background-position:-260px -7px;
+			}
+			50%{
+				background-position:-260px -600px;
+			}
+			100%{
+				background-position:-263px -895px;
+			}
+			
+		}
+		@keyframes ruletaK{
+			0%{
+				background-position:-260px -7px;
+			}
+			50%{
+				background-position:-260px -600px;
+			}
+			100%{
+				background-position:-263px -597px;
+			}
+			
+		}
+		@keyframes ruletaN{
+			0%{
+				background-position:-260px -7px;
+			}
+			50%{
+				background-position:-260px -600px;
+			}
+			100%{
+				background-position:-263px -298px;
+			}
+			
+		}
+		@keyframes ruletaP{
+			0%{
+				background-position:-260px -7px;
+			}
+			50%{
+				background-position:-260px -600px;
+			}
+			100%{
+				background-position:-263px -0px;
+			}
+			
+		}
+		 .rule{
+			height: 300px;
+			width:300px;
+			background-size: cover;
+			background: url(lola2.png), rgba(105, 105, 105, 1);
+			background-position:-263px -1487px;
+			border: solid 8px black;
+			border-radius: 200px;
+			
+
+		}
+
+		.rull{
+			width: 80%;
+			height: 15%;
+			background: gold;
+			font-size: 80px;
+			text-align: center;
+			color: white;
+			box-sizing: border-box;
+			border-radius: 20px;
+			border: solid 5px black;
+			margin-top: 0%;
+			font-family: Showcard Gothic;
+			text-shadow: black 5px 5px ;
+
+			
+			
+		}
+		.rulemenu{
+			background:url(fondo.jpg);
+			background-size: cover;
+			width: 100%;
+			height: 110%;
+			padding-top:4%;
+			box-sizing: border-box;
+			border:solid 1px black;
+			padding-bottom: 5%;
+
+		}
+		.titu{
+			
+			font-size: 70px;
+			width: 100%;
+			margin-top: 2%;
+			font-family: Showcard Gothic;
+			color: gold;
+			text-shadow:5px 5px 5px black;
+
+			
+			
+
+		}
+		.dados{
+			margin-top:0%;
+			margin-bottom: 0%;
+			color: black;
+			width: 80px;
+			height: 80px;
+			background:url(d2.png) white;
+			font-size: 80px;
+			border: solid 5px yellow;
+			border-radius: 45px;
+			text-align: center;
+			background-size: cover;
+			display: inline-flex;
+			background-position: 0px -20px;
+			
+		}
+		.juga{
+			margin-top:0%;
+			margin-bottom: 0%;
+			color: black;
+			width: 80px;
+			height: 80px;
+			margin-left: 5%;
+			background:url(juga.png);
+			font-size: 80px;
+			border: solid 5px yellow;
+			border-radius: 45px;
+			text-align: center;
+			background-size: cover;
+			background-position: 0px;
+			display: inline-flex;
+			
+
+		}
+		.emer{
+			height:58%;
+			width: 85%;
+			background: red;
+			position: absolute;
+			top: 15%;
+			left: 8%;
+			border: solid black 10px;
+			transition: all 1s;
+			opacity: 0;
+			display: none;
+			font-size: 300px;
+			box-sizing: border-box;
+			padding-top: 8%;
+		}
+		.cerrar{
+			height: 18%;
+			width: 20%;
+			border-radius: 100%;
+			background: blue;
+			border: solid 8px black;
+			position: absolute;
+			top: 1%;
+			left: 75%;
+		}
+		.invi{
+			height: 22px;
+			width: 22px;
+			background: rgba(0, 0, 0,0);
+		}
